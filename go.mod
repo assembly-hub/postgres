@@ -2,7 +2,11 @@ module github.com/assembly-hub/postgres
 
 go 1.19
 
-require github.com/jackc/pgx v3.6.2+incompatible
+require (
+	github.com/assembly-hub/db v1.1.0
+	github.com/assembly-hub/impl-db-sql v1.1.0
+	github.com/jackc/pgx v3.6.2+incompatible
+)
 
 require (
 	github.com/cockroachdb/apd v1.1.0 // indirect
